@@ -56,7 +56,20 @@
 
 
     	<!--img src="./assets/YorkESA.jpg" alt="York ESA Logo" />-->
-	<a href	="assets/IsaiahKalathoor.jpg"><img style="width:30%;max-width:30%;object-fit: cover; border-radius: 30%;" alt="profile photo" src="assets/IsaiahKalathoor.jpg"
+	<tr onmouseout="nuvo_stop()">
+      <td style="padding:0px;width:10%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
+          <source src="assets/SHSM.jpg" type="video/mp4">
+          Your browser does not support the video tag.
+          </video></div>
+          <img src='assets/SHSM.jpg' width=50%>
+        </div>
+        <script type="text/javascript">
+          function nuvo_stop() {
+            document.getElementById('nuvo_image').style.opacity = "1";
+          }
+          nuvo_stop()
         </script>
       </td>
 		

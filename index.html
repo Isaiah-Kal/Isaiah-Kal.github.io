@@ -121,25 +121,22 @@
     </tr>
 	
 	
-    <tr onmouseout="recon_stop()" onmouseover="recon_start()" bgcolor="#ffffff">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+     <tr onmouseout="nuvo_stop()">
+      <td style="padding:0px;width:10%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='recon_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/recon.mp4" type="video/mp4">
+          <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
+          <source src="assets/Panthera.jpg" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/recon.png' width="160">
+          <img src='assets/Panthera.jpg' width=50%>
         </div>
         <script type="text/javascript">
-          function recon_start() {
-            document.getElementById('recon_image').style.opacity = "1";
+          function nuvo_stop() {
+            document.getElementById('nuvo_image').style.opacity = "1";
           }
-
-          function recon_stop() {
-            document.getElementById('recon_image').style.opacity = "0";
-          }
-          recon_stop()
+          nuvo_stop()
         </script>
+	      
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
         <a href="https://twitter.com/JPCI_Tech">

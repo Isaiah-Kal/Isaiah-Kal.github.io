@@ -77,20 +77,16 @@
     </tr>
 	
 
-    <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+    <tr onmouseout="nuvo_stop()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
           <source src="assets/SHSM.jpg" type="video/mp4">
           Your browser does not support the video tag.
           </video></div>
-          <img src='images/SHSM.jpg' width=100%>
+          <img src='assets/SHSM.jpg' width=100%>
         </div>
         <script type="text/javascript">
-          function nuvo_start() {
-            
-          }
-
           function nuvo_stop() {
             document.getElementById('nuvo_image').style.opacity = "1";
           }
